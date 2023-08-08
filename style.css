@@ -47,6 +47,7 @@ h2, p {
     width: 1000px;
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .thumbnail img{
