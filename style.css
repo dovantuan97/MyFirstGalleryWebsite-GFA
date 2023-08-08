@@ -1,5 +1,5 @@
 body{
-    background: #F0F8FF;
+    background: #c6e4ff;
 }
 
 h1{
@@ -7,9 +7,31 @@ h1{
     font-family: 'Open Sans', sans-serif;
 }
 
-.description{
+.preview{
+    position: relative;
+    border: 10px solid white;
+    box-shadow: 0px 0px 7px 3px grey;
+    height: 600px;
     width: 1000px;
+
+}
+
+.preview img{
+    height: 600px;
+    width: 1000px;
+}
+
+.description{
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    position: absolute;
     font-family: 'Roboto Slab', serif;
+    width: 1000px;
+    bottom: 0px;
+}
+
+h2, p {
+    margin: 10px 20px;
 }
 
 .container{
@@ -21,12 +43,6 @@ h1{
     align-items: center;
 }
 
-.preview img{
-    height: 600px;
-    width: 1000px;
-    box-shadow: 0px 0px 7px 3px grey;
-}
-
 .thumbnail{
     width: 1000px;
     display: flex;
@@ -36,6 +52,7 @@ h1{
 .thumbnail img{
     height: 100px;
     margin: 20px;
+    border: 5px solid white;
     box-shadow: 0px 0px 7px 3px grey;
 }
 
