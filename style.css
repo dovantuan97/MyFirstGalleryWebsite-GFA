@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+.description{
+    width: 1000px;
+    text-align: left;
+}
+
+.container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview img{
+    height: 600px;
+    width: 1000px;
+    box-shadow: 0px 0px 7px 3px grey;
+}
+
+.thumbnail{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail img{
+    height: 100px;
+    margin: 20px;
+    box-shadow: 0px 0px 7px 3px grey;
+}
+
+.thumbnail img:hover{
+    height: 150px;
+}
